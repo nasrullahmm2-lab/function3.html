@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title> document object model</title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <h1 id-"heading"> welcome </h1>
+        <p>hello</p>
+        <p> how are you </p>
+        <script>
+            let div = document.createElement('div');
+               div.id="paragraph";
+               div.classname="alert";
+               div.innerHTML="<p> congrats you have created div";
+                document.body.append(div);
+                let heading=document.getlemenbyid('heading');
+                document.querySelector('header p').innerHTML="<strong> Good job </strong>";
+        </script>
+    </body>
+</html>
