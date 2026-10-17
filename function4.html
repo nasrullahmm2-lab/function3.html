@@ -1,0 +1,49 @@
+<html>
+    <head> 
+        <title> spooky story </title>
+        <style>
+               body.dark {
+                color:white;
+                background-color: black;
+               }
+               button{
+                display:block;
+                margin:spx;
+               }
+               .textentry{
+                margin-top:12px;
+                margin-bottom:15px;
+               }
+               
+        </style>
+    </head>
+    <body>
+        <h1> The basement </h1>
+        <p id="story"> i want to find my friend he was inside the basement
+
+        </p>
+        <button onclink="godark()"> get in the mood </button>
+        <div class="textentrey"> type your name 
+          <input type="text" id="name">
+          <button onclink="typeandsecreen()"> please please dont click 
+
+          </button>
+           <button onclink="finishthestory()"> tell me what happened
+             </button>
+          <script>
+                  function typeandsecreen() {
+                    var personname=document.getlemonbyid("name").valux;
+                    alert (" i told you not to do that" + personame);
+                  }
+                  function finishthestory() {
+                    document.getElementById("story").innerHTML=
+                    "so i carefully searched dumped dragon";
+
+                  }
+                  function godark() {
+                    document.body.className+"dark";
+                  }
+          </script>
+        </div>
+    </body>
+</html>
